@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const fetcher = axios.create({
     // baseURL: 'https://tpi-clms.herokuapp.com/api/v1', //dev
-    baseURL: 'https://tpi-doc-creator-backend.onrender.com/', //live
+    baseURL: 'https://tpi-doc-creator-backend.onrender.com/api/v1', //live
     headers: {
         'Content-Type': 'application/json',
         // 'Acess-Control-Allow-Origin':'*',
